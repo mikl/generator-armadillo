@@ -1,4 +1,6 @@
 node_modules
 components
+export/
+<% if (!ghDeploy) { %>.dist/<% } %>
 .www
 .sass-cache
